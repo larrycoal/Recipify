@@ -475,6 +475,9 @@ footer {
   .post_wrapper {
     width: 100%;
   }
+  .overlay_wrapper .content {
+    width: 80%;
+  }
   .overlay_wrapper .content ul {
     height: fit-content;
   }
@@ -512,6 +515,9 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .overlay_wrapper .content {
+    width: 80%;
+  }
   .overlay_wrapper .content ul {
     height: fit-content;
   }
