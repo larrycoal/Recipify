@@ -199,8 +199,15 @@ About
 ==================
  */
 #about {
-  margin: 2rem 0;
   height: fit-content;
+}
+.about_banner {
+  background-color: #fdf8f8;
+  background-image: url("./Assets/merakist-RxOrX1iW15A-unsplash.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .who_we_are {
   display: flex;
@@ -242,6 +249,7 @@ About
   line-height: 25px;
   letter-spacing: 1px;
 }
+
 .team-wrapper h2 {
   text-align: center;
   margin: 3rem 0;
@@ -339,7 +347,16 @@ Contact
 ==================
  */
 #contact_wrapper {
-  margin: 2rem;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+.contact_banner {
+  background-color: #fdf8f8;
+  background-image: url("./Assets/miles-burke-idhx-MOCDSk-unsplash.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .reachUs {
   display: flex;
@@ -494,18 +511,31 @@ footer {
     display: none;
   }
   .reachUs {
-    width: 100%;
+    width: 80%;
+    margin: 10px auto;
   }
   .reachUs .left {
     width: 100%;
   }
   .sendMessage {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
   }
   .abouts {
     flex-direction: column;
     align-items: center;
     text-align: left;
+    width: 100%;
+  }
+  .about-header {
+    width: 68%;
+  }
+  .team-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .abouts h3 {
+    text-align: center;
   }
   .post_wrapper .container {
     justify-content: center;
@@ -518,6 +548,10 @@ footer {
   .overlay_wrapper .content {
     width: 80%;
   }
+  .team-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
   .overlay_wrapper .content ul {
     height: fit-content;
   }
@@ -529,10 +563,19 @@ footer {
     flex-direction: column;
     gap: 5px;
   }
+  .about-header {
+    width: 68%;
+  }
   nav .menu span {
     padding: 3px;
     background-color: #353333;
     width: 50px;
+  }
+  .abouts h3 {
+    text-align: center;
+  }
+  .abouts {
+    width: 100%;
   }
   .sendMessage form .inputs {
     flex-direction: column;
