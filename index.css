@@ -534,6 +534,9 @@ footer {
     background-color: #353333;
     width: 50px;
   }
+  .sendMessage form .inputs {
+    flex-direction: column;
+  }
   #mobile {
     margin: 1rem 0;
   }
